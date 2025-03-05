@@ -27,11 +27,14 @@
 <meta property="og:site_name" content="云雀叫了一整天">
 <meta property="og:description" content="估值的过程就是把对公司的理解具体化的过程">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://skylarksings.cn/2025/03/05/images/%E4%BC%B0%E5%80%BC%E7%9A%84%E4%B8%80%E4%B8%AA%E5%AE%9E%E4%BE%8B/image1.png">
+<meta property="og:image" content="http://skylarksings.cn/2025/03/05/images/%E4%BC%B0%E5%80%BC%E7%9A%84%E4%B8%80%E4%B8%AA%E5%AE%9E%E4%BE%8B/image2.png">
 <meta property="article:published_time" content="2025-03-05T12:37:15.394Z">
-<meta property="article:modified_time" content="2025-03-05T13:51:35.118Z">
+<meta property="article:modified_time" content="2025-03-05T14:25:11.808Z">
 <meta property="article:author" content="Liigo">
 <meta property="article:tag" content="投资">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://skylarksings.cn/2025/03/05/images/%E4%BC%B0%E5%80%BC%E7%9A%84%E4%B8%80%E4%B8%AA%E5%AE%9E%E4%BE%8B/image1.png">
   
   
   
@@ -49,7 +52,11 @@
   
 
   
-</head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --></head>
 <body>
 
 <div class="l_body s:aa content tech" id="start" layout="post" ><aside class="l_left"><div class="leftbar-container">
@@ -79,7 +86,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-03-05T12:37:15.394Z">2025-0305</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2025-03-05T13:51:35.118Z">2025-0305</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-03-05T12:37:15.394Z">2025-0305</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2025-03-05T14:25:11.808Z">2025-0305</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -118,9 +125,7 @@ target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=dXP9hBdVHuM
 <p>以下无单位数字单位均为million</p>
 <h3 id="线下业务">线下业务</h3>
 <p>线下业务可预测性强，现金流稳定，所以选择DCF方法，即将这家公司未来的所有现金流贴现到现在：</p>
-<p><span> <span class="math inline">\(DCF =
-\frac{(1+r)^1} + \frac{(1+r)}^2 +
-... + \frac{(1+r)^n}\)</span> </span></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="../images/估值的一个实例/image1.png" /></p>
 <p>其中CF表示每一期（这里选择一期为一年）的<strong>现金流</strong>，r为<strong>折现率</strong>，我们当然无法真的一项一项算到无穷的未来，所以我们一般用一个<strong>终值</strong>替代某一时间后的所有现金流折现结果</p>
 <h4 id="现金流">现金流</h4>
 <p>估计未来的现金流要参考过去的现金流，现在是2022年，正处于疫情结束后的恢复阶段，2020、2021年受疫情影响，因此数据无法直接拿来参考，再往前看2018年，此时DIS的线上业务还没开始展开，几乎完全是线下业务，此时的现金流较有参考性。查找DIS财报，可以得到2018年现金流和年增速</p>
@@ -140,7 +145,25 @@ target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=dXP9hBdVHuM
 <p>DIS选择8%</p>
 <h4 id="终值">终值</h4>
 <p>业内惯例是预期第六年公司变成熟，以每年2-3%的增速经营，业绩平稳，几乎无增长（类似KO）</p>
-<p>$TV = </p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="../images/估值的一个实例/image2.png" /></p>
+<p>其中 CF_n
+是<strong>我们估计到的最后一年现金流折现</strong>，r为<strong>折现率</strong>，g为<strong>恒定增速</strong>（2-3%）</p>
+<p>在这里 CF_n 为12374折现，即8422</p>
+<p>因此TV约为1430亿 代入公式得线下业务估值1141亿</p>
+<h3 id="线上业务">线上业务</h3>
+<p>线上业务快速发展，不适合用DCF，所以选择相对估值法
+最常用的PE只能对已经盈利的公司估值（不然会算出负数），但DIS的线上业务尚未盈利。且PE有一定的误导性，因为财报中的盈利很容易被操纵</p>
+<p>但财报中的营收不会为负数，也不太容易操纵，该是多少就是多少，所以PS（=市值/营收）更适合给仍未盈利的成长股估值</p>
+<p>PS = 市值/营收 可以退出 合理市值 = 合理PS * 营收</p>
+<p>从财报可以找到营收，那么合理PS怎么选？选择参考NFLX的历史PS，因为它们的线上业务的商业模式几乎相同，且华尔街预测DIS未来两年营收增速30%，将快速进军国际市场，与17-19年NFLX的情况类似，NFLX当时5-9倍PS，因此取中间值7</p>
+<p>得线上业务估值1823亿</p>
+<h3 id="结果">结果</h3>
+<p>内在价值 = 线上业务内在价值 + 线下业务内在价值 = 1141亿 + 1823亿
+-&gt; 62.5/股 + 99.7/股 = 162.2/股</p>
+<p>可以看到线上业务刚开始发展，估值都快赶上发展百年的线下业务了，也符合平常观察到的科技股估值偏高的现象</p>
+<p>如何理解最后得到的160？我们通过它得到一个范围： -
+线上、线下有协同效应，还没有计入我们的估值 - 之前的估值方法比较保守</p>
+<p>150 - 180 有信心跌破150涨回</p>
 
 <div class="article-footer fs14">
     <section id="references">
@@ -223,7 +246,7 @@ target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-
 
 
 
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E4%BC%B0%E5%80%BC%E6%96%B9%E6%B3%95"><span class="toc-text">常用估值方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E5%AE%9E%E4%BE%8B2022%E5%B9%B4dis%E4%BC%B0%E5%80%BC"><span class="toc-text">一个实例：2022年DIS估值</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E4%B8%8B%E4%B8%9A%E5%8A%A1"><span class="toc-text">线下业务</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%8E%B0%E9%87%91%E6%B5%81"><span class="toc-text">现金流</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8A%98%E7%8E%B0%E7%8E%87"><span class="toc-text">折现率</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%88%E5%80%BC"><span class="toc-text">终值</span></a></li></ol></li></ol></li></ol></div><div class="widget-footer">
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E4%BC%B0%E5%80%BC%E6%96%B9%E6%B3%95"><span class="toc-text">常用估值方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E5%AE%9E%E4%BE%8B2022%E5%B9%B4dis%E4%BC%B0%E5%80%BC"><span class="toc-text">一个实例：2022年DIS估值</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E4%B8%8B%E4%B8%9A%E5%8A%A1"><span class="toc-text">线下业务</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%8E%B0%E9%87%91%E6%B5%81"><span class="toc-text">现金流</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8A%98%E7%8E%B0%E7%8E%87"><span class="toc-text">折现率</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%88%E5%80%BC"><span class="toc-text">终值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E4%B8%8A%E4%B8%9A%E5%8A%A1"><span class="toc-text">线上业务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E6%9E%9C"><span class="toc-text">结果</span></a></li></ol></li></ol></div><div class="widget-footer">
 
 <a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/></g></svg><span>回到顶部</span></a><a class="buttom" onclick="util.scrollComment()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M10.46 1.25h3.08c1.603 0 2.86 0 3.864.095c1.023.098 1.861.3 2.6.752a5.75 5.75 0 0 1 1.899 1.899c.452.738.654 1.577.752 2.6c.095 1.004.095 2.261.095 3.865v1.067c0 1.141 0 2.036-.05 2.759c-.05.735-.153 1.347-.388 1.913a5.75 5.75 0 0 1-3.112 3.112c-.805.334-1.721.408-2.977.43a10.81 10.81 0 0 0-.929.036c-.198.022-.275.054-.32.08c-.047.028-.112.078-.224.232c-.121.166-.258.396-.476.764l-.542.916c-.773 1.307-2.69 1.307-3.464 0l-.542-.916a10.605 10.605 0 0 0-.476-.764c-.112-.154-.177-.204-.224-.232c-.045-.026-.122-.058-.32-.08c-.212-.023-.49-.03-.93-.037c-1.255-.021-2.171-.095-2.976-.429A5.75 5.75 0 0 1 1.688 16.2c-.235-.566-.338-1.178-.389-1.913c-.049-.723-.049-1.618-.049-2.76v-1.066c0-1.604 0-2.86.095-3.865c.098-1.023.3-1.862.752-2.6a5.75 5.75 0 0 1 1.899-1.899c.738-.452 1.577-.654 2.6-.752C7.6 1.25 8.857 1.25 10.461 1.25M6.739 2.839c-.914.087-1.495.253-1.959.537A4.25 4.25 0 0 0 3.376 4.78c-.284.464-.45 1.045-.537 1.96c-.088.924-.089 2.11-.089 3.761v1c0 1.175 0 2.019.046 2.685c.045.659.131 1.089.278 1.441a4.25 4.25 0 0 0 2.3 2.3c.515.214 1.173.294 2.429.316h.031c.398.007.747.013 1.037.045c.311.035.616.104.909.274c.29.17.5.395.682.645c.169.232.342.525.538.856l.559.944a.52.52 0 0 0 .882 0l.559-.944c.196-.331.37-.624.538-.856c.182-.25.392-.476.682-.645c.293-.17.598-.24.909-.274c.29-.032.639-.038 1.037-.045h.032c1.255-.022 1.913-.102 2.428-.316a4.25 4.25 0 0 0 2.3-2.3c.147-.352.233-.782.278-1.441c.046-.666.046-1.51.046-2.685v-1c0-1.651 0-2.837-.089-3.762c-.087-.914-.253-1.495-.537-1.959a4.25 4.25 0 0 0-1.403-1.403c-.464-.284-1.045-.45-1.96-.537c-.924-.088-2.11-.089-3.761-.089h-3c-1.651 0-2.837 0-3.762.089" clip-rule="evenodd"/><path fill="currentColor" d="M9 11a1 1 0 1 1-2 0a1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0"/></svg><span>参与讨论</span></a></div></widget>
 </div></aside><div class='float-panel blur'>
@@ -698,6 +721,26 @@ target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-
       })
     }
   });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    processEscapes: true
+  }
+});
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+});
+MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
 </script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
